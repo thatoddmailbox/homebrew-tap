@@ -6,6 +6,12 @@ class Roamer < Formula
 
   depends_on "go" => :build
 
+  bottle do
+    root_url "https://raw.githubusercontent.com/thatoddmailbox/homebrew-tap/master/bin"
+    cellar :any_skip_relocation
+    sha256 "2074b5ae3092331286505f22485f9b8b891ab10c0dbe8afad0e279922245ff0f" => :catalina
+  end
+
   def install
     system "go", "build", *std_go_args, "./cli/"
   end
