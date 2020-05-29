@@ -1,5 +1,5 @@
 # thatoddmailbox/tap
-This is a [Homebrew Tap](https://docs.brew.sh/Taps) containing [roamer](https://github.com/thatoddmaibox/roamer). At some point it might contain other software, too.
+This is a [Homebrew Tap](https://docs.brew.sh/Taps) containing [roamer](https://github.com/thatoddmailbox/roamer). At some point it might contain other software, too.
 
 ## How do I install these formulae?
 `brew install thatoddmailbox/tap/<formula>`
