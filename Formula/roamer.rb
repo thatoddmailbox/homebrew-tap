@@ -6,8 +6,7 @@ class Roamer < Formula
 
   bottle do
     root_url "https://raw.githubusercontent.com/thatoddmailbox/homebrew-tap/master/bin"
-    cellar :any_skip_relocation
-    sha256 "2074b5ae3092331286505f22485f9b8b891ab10c0dbe8afad0e279922245ff0f" => :catalina
+    sha256 cellar: :any_skip_relocation, catalina: "2074b5ae3092331286505f22485f9b8b891ab10c0dbe8afad0e279922245ff0f"
   end
 
   depends_on "go" => :build
